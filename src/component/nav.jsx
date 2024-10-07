@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './component.css'; // Import custom CSS
 import { Navbar, Nav, Container } from 'react-bootstrap'; // Using react-bootstrap for the Navbar
 
