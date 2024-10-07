@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 function Hero() {
