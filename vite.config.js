@@ -1,16 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import bootstrap from 'vite-plugin-bootstrap';
 
 export default defineConfig({
-  plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: ['bootstrap/dist/css/bootstrap.min.css']
-    }
-  },
-  resolve: {
-    alias: {
-      // Add aliases if needed
-    },
-  },
+  plugins: [react(), bootstrap()],
 });
