@@ -8,4 +8,9 @@ export default defineConfig({
       // Add aliases if needed
     },
   },
+  build: {
+    rollupOptions: {
+      external: ['bootstrap/dist/css/bootstrap.min.css'], // add this line
+    },
+  },
 });
