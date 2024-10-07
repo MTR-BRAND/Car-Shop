@@ -1,4 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
 // import './App.css'
 import Navbar from './component/nav';
 import Hero from './component/hero';
